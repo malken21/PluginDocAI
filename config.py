@@ -6,11 +6,7 @@ FILE_MD = "result/PluginDoc.md"
 
 # プラグイン一覧
 PLUGINS = [
-    "BKCommonLib", "Armor_stand", "ArmorStandEditor", "Auto_message", "BanPlayerSheet", "BlocksHub", "BungeeGuard", "ClockItemTimer", "ClockPlugin", "CommandPanels",
-    "CoreProtect", "DiscordSRV", "Dispenser_FallingBlock", "DispenserActions", "dynmap", "Dynmap-WorldGuard", "Effect_GUI", "Essentials", "EssentialsChat", "EssentialsProtect"
-    "EssentialsSpawn", "EssKillPotionBack", "GSit", "HideNametagCMD", "HolographicDisplays", "ImageOnMap", "InfinityDispense", "ItemDropCooldown", "Lift", "LuckPerms"
-    "LunaChat", "Multiverse-Core", "MyPet", "PlaceholderAPI", "RealScoreboard", "Shopkeepers", "TeleportSpectator", "Tps_log", "Train_Carts", "Vault",
-    "Vehicles", "ViaVersion", "Warn_KillPotion", "WorldBorder", "WorldEdit", "WorldEditSelectionVisualizer", "WorldGuard", "WorldGuardExtraFlags"
+    "WorldEdit"
 ]
 
 # GGUFファイルのパス

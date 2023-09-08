@@ -1,9 +1,5 @@
 import util
-
-FILE_JSON = "PluginDoc.json"
-
-FILE_MD = "result/PluginDoc.md"
-
+from config import FILE_JSON, FILE_MD
 
 # json 読み込み
 PL_DOC = util.readJSON(FILE_JSON)

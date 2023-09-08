@@ -13,3 +13,7 @@ python3 getPluginDoc.py
 ```sh
 python3 toMarkdown.py
 ```
+
+初期設定では resultディレクトリに json と md ファイルが生成されます。
+
+config.pyでG GUFファイルのパス などを設定できます。

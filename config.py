@@ -10,7 +10,7 @@ PLUGINS = [
 ]
 
 # GGUFファイルのパス
-MODEL_PATH = "models/ggml-model-q4_m.gguf"
+MODEL_PATH = "models/model.gguf"
 
 
 # システムメッセージ

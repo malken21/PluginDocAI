@@ -1,5 +1,6 @@
 import json
 import pathlib
+import os
 
 
 def createPrompt(message: str, history: list[str], system_message: str):
@@ -29,14 +30,16 @@ def createCompletion(llm, prompt: str):
 
 # 書き込み
 def save(path, data: str):
-    pathlib.Path(path).mkdir(parents=True, exist_ok=True)
+    dirname = os.path.dirname(os)
+    pathlib.Path(dirname).mkdir(parents=True, exist_ok=True)
     with open(path, 'w', encoding='utf-8') as file:
         file.write(data)
 
 
 # 書き込み
 def saveJSON(path, data):
-    pathlib.Path(path).mkdir(parents=True, exist_ok=True)
+    dirname = os.path.dirname(os)
+    pathlib.Path(dirname).mkdir(parents=True, exist_ok=True)
     with open(path, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
 

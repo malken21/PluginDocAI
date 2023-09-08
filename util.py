@@ -31,7 +31,7 @@ def createCompletion(llm, prompt: str):
 # 書き込み
 def save(path, data: str):
     # ディレクトリがなければ作成
-    dirname = os.path.dirname(os)
+    dirname = os.path.dirname(path)
     pathlib.Path(dirname).mkdir(parents=True, exist_ok=True)
     # ファイルに書き込む
     with open(path, 'w', encoding='utf-8') as file:
@@ -41,7 +41,7 @@ def save(path, data: str):
 # 書き込み
 def saveJSON(path, data):
     # ディレクトリがなければ作成
-    dirname = os.path.dirname(os)
+    dirname = os.path.dirname(path)
     pathlib.Path(dirname).mkdir(parents=True, exist_ok=True)
     # ファイルに書き込む
     with open(path, 'w', encoding='utf-8') as file:

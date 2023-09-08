@@ -2,7 +2,7 @@ import util
 
 FILE_JSON = "PluginDoc.json"
 
-FILE_MD = "PluginDoc.md"
+FILE_MD = "result/PluginDoc.md"
 
 
 # json 読み込み

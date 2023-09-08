@@ -1,7 +1,7 @@
 from llama_cpp import Llama
 import util
 
-FILE_JSON = "PluginDoc.json"
+FILE_JSON = "result/PluginDoc.json"
 
 # プラグイン一覧
 PLUGINS = [
